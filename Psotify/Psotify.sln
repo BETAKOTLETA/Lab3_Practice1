@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psotify.DataModel", "Psotify.DataModel\Psotify.DataModel.csproj", "{96CC5AF0-399F-4FD4-A643-DCF5D2BC980E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psotify.Console", "Psotify.Console\Psotify.Console.csproj", "{BBE2F8F3-AD58-42FC-B777-EA4AF0B94DAE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CC5AF0-399F-4FD4-A643-DCF5D2BC980E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CC5AF0-399F-4FD4-A643-DCF5D2BC980E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CC5AF0-399F-4FD4-A643-DCF5D2BC980E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CC5AF0-399F-4FD4-A643-DCF5D2BC980E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE2F8F3-AD58-42FC-B777-EA4AF0B94DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE2F8F3-AD58-42FC-B777-EA4AF0B94DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE2F8F3-AD58-42FC-B777-EA4AF0B94DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE2F8F3-AD58-42FC-B777-EA4AF0B94DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
